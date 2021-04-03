@@ -1,0 +1,44 @@
+body {
+    background-color: #FFE169;
+}
+nav {
+    background-color: #B69121;
+    border: 4px groove grey;
+}
+.navul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.navul li{
+    border: 3px inset black;
+    padding: 10px;
+    background-color: #76520E;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.navul a {
+    font-family: cursive;
+    color: black;
+}
+.navul li:hover {
+    color: yellow;
+    background-color: black;
+    border: 3px outset black;
+}
+.idm {
+    display: flex;
+    justify-content: center;
+    
+}
+.idm h1 {
+    
+}
+.idd2 {
+    border: 4px outset black;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
