@@ -12,7 +12,7 @@ nav {
     padding: 0;
 }
 .navul li{
-    border: 3px inset black;
+    border: 3px outset black;
     padding: 10px;
     background-color: #76520E;
     font-size: 20px;
@@ -26,6 +26,11 @@ nav {
     color: yellow;
     background-color: black;
     border: 3px outset black;
+}
+.navul li:active {
+    color: black;
+    background-color: yellow;
+    border: 3px inset black;
 }
 .idm {
     display: flex;
