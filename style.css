@@ -1,5 +1,10 @@
 body {
-    background-color: #FFE169;
+    background: url(/images/honey-dripping-with-honey-dipper-isolated-yellow-gold-background_32511-50.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 nav {
     background-color: #B69121;
@@ -37,9 +42,6 @@ nav {
     flex-direction: column;
     align-items: center;
 }
-.idd1 {
-    display: block;
-}
 .idd2 img{
     border: 4px outset black;
 }
@@ -48,20 +50,6 @@ nav {
     flex-direction: column;
     align-items: center;
     border: 4px dotted black;
-    padding: 10px;
-    margin: 10px;
-}
-.cud {
-    margin: 10%;
-}
-table {
-    border: 2px solid black;
-}
-th {
-    border: 2px solid grey;
-}
-td {
-    border: 2px solid grey;
 }
 .shd {
     display: flex;
@@ -75,4 +63,19 @@ td {
 }
 .shim:hover {
     box-shadow: 10px 5px 5px grey;
+}
+footer {
+    background-color: #B69121;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+table {
+    border: 2px solid black;
+}
+th {
+    border: 2px solid grey;
+}
+td {
+    border: 2px solid grey;
 }
